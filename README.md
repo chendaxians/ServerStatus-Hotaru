@@ -8,7 +8,7 @@
 
 ```
 
-wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
+wget https://raw.githubusercontent.com/chendaxians/ServerStatus-Hotaru/master/status.sh
 bash status.sh s
 
 ```
