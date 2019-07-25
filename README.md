@@ -1,8 +1,8 @@
-# ServerStatus-Hotaru
+# ServerStatus-Hotaru再次修改版
 云探针、多服务器探针、云监控、多服务器云监控
 
 基于ServerStatus-Toyo最新版本稍作修改，不太会脚本什么的，前端也垃圾。见谅
-
+（更改：更改了一些小细节，文字和前端图片，ps：顺眼多了
 服务端
 安装
 
