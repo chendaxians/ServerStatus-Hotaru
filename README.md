@@ -6,8 +6,12 @@
 服务端
 安装
 
+```
+
 wget https://raw.githubusercontent.com/CokeMine/ServerStatus-Hotaru/master/status.sh
 bash status.sh s
+
+```
 
 1、选择1，配置服务端
 
@@ -27,9 +31,9 @@ bash status.sh s
 
 客户端
 安装
-
+```
 bash status.sh c
-
+```
 ## 相关开源项目 ： 
 * ServerStatus-Toyo：https://github.com/ToyoDAdoubiBackup/ServerStatus-Toyo
 * ServerStatus：https://github.com/BotoX/ServerStatus
