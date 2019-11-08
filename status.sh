@@ -198,19 +198,15 @@ Installation_dependency(){
 }
 Write_server_config(){
 	cat > ${server_conf}<<-EOF
-{"servers":
- [
-  {
-   "username": "username01",
-   "password": "password",
-   "name": "Server 01",
-   "type": "KVM",
-   "host": "",
-   "location": "Hong Kong",
-   "disabled": false,
-   "region": "HK"
-  }
- ]
+{
+"servers": [
+{  "username": "c6","password": "wesd6","name": "美国 v2三网(8k中转）", "type": "KVM", "host": "", "location": "美国","disabled": false,"region": "US"},
+{ "username": "c5","password": "wesd5","name": "中国 香港 v2三网（cmi）", "type": "KVM", "host": "", "location": "香港","disabled": false ,"region": "HK"},
+{ "username": "c4","password": "wesd4","name": "韩国 v1三网(AWS中转)", "type": "KVM", "host": "", "location": "韩国","disabled": false,"region": "KR"},
+{ "username": "c3","password": "wesd3","name": "日本 v1三网(AWS中转）", "type": "KVM", "host": "", "location": "日本", "disabled": false,"region": "JP"},
+{ "username": "c2","password": "wesd2","name": "新加坡 v1三网(AWS中转）", "type": "KVM", "host": "", "location": "新加坡", "disabled": false,"region": "SG"},
+{ "username": "c1","password": "wesd1","name": "中国 香港 v1三网（cmi）", "type": "KVM", "host": "", "location": "香港","disabled": false,"region": "HK"}
+]
 }
 EOF
 }
